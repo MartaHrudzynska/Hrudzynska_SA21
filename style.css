@@ -1,0 +1,1310 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{margin: 0; padding: 0; scroll-behavior: smooth;}
+h1, img {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0!important;
+    margin-block-end: 0;
+}
+/* main{
+    background-color: white;
+} */
+p{
+    font-family: 'Inter', sans-serif;
+    color: #494949;
+}
+body {
+    max-width: 1520px;
+    margin: 0px auto;
+}
+
+header {
+            display: flex;
+            position: fixed;
+            height: 10vh;
+            background: white;
+            z-index: 2;
+            justify-content: space-between;
+            padding: 8px 0px;
+            width: 100%;
+        }
+
+        nav {
+            display: flex; 
+        }
+        nav a {
+            text-decoration: none;
+            color:#494949;
+            font-family: 'Inter', sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            padding: 0px 20px;
+        }
+        .logo1{
+            margin-left: 30px;
+        }
+        .block{
+            height: 12vh;
+            width: 100vw;
+            background-color: white;
+        }
+        .burger-menu{
+            display: none;
+        }
+        .nav1{
+            display: none;
+        }
+        #burger, [for=burger] {
+            display: none;
+        }
+.search-icon{
+    display: none;
+}
+.mob-logo{
+    display: none;
+}       
+.menu-icon{
+    display: none;
+}      
+
+.sec1{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+video{
+    width: 100vw;
+}
+
+.zaholovok {
+    background-color: rgba(202, 216, 234, 1);
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+    color: rgba(73, 73, 73, 1);
+}
+
+
+
+.players {
+    position: relative;
+    background-color: rgba(255, 247, 215, 1);
+}
+#pl-h2{
+    padding-top: 30px;
+}
+.players p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+    font-family: 'Inter', sans-serif;
+    color: rgba(73, 73, 73, 1);
+    font-weight: 500;
+    font-size: 38px;
+}
+.players div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 20px 0px 20px;
+}
+.pl-block{
+    border: 1px solid #494949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+}
+.pl-block div{
+    margin: 0px;
+}
+.plp {
+    border: none;
+    margin: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+.plp p{
+    margin: 5px 0px;
+    font-size: 18px;
+}
+.pl-img{
+    width: 100%;
+}
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button button{
+    background-color:rgba(202, 216, 234, 1);
+    color:#494949; 
+    font-family: 'Inter', sans-serif;
+    border: 1px solid #494949;
+    padding: 5px 8px;
+    cursor: pointer;
+    margin: 30px 0px 30px 0px;
+}
+
+
+.tutor  {
+    display: flex;
+}
+.tutor img{
+    width: 60%;
+}
+.rebrov{
+    display: block;
+    background-color: rgba(202, 216, 234, 1);
+    height: 65%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.tutor-block{
+    width: 100%;
+}
+.sr {
+    font-size: 35px;
+    font-weight: 500;
+}
+.link{
+    width: 100%;
+    background-color: rgba(255, 247, 215, 1);
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.link a {
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    color: #494949;
+
+}
+.game-obgortka {
+    display: flex;
+    background-color: rgba(202, 216, 234, 1);
+    justify-content: center;
+    padding: 50px;
+    padding-top: 70px;
+
+}
+
+.game-obgortka div {
+    margin: 0 30px;
+    padding: 20px;
+    width: 400px;
+    height: auto;
+    background-color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.game-section {
+    margin-top: 90px;
+    position: relative;
+}
+
+.game-section h2 {
+    background-color: #494949;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 20px 50px;
+    display: inline-block;
+    position: absolute;
+    top: -33px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.game-name{
+    background-color: rgba(255, 204, 0, 1);
+    font-size: 25px;
+    padding: 12px;
+    margin-top: 12px;
+}
+.game-date{
+    background-color: rgba(255, 204, 0, 1);
+    padding-bottom: 12px;
+
+}
+.st{
+    padding-top: 60px;
+    font-size: 50px;
+}
+.det{
+    background-color: rgba(255, 247, 215, 1);
+    border: 1px solid #494949;
+    margin: 55px 0px 30px 0px;
+    padding: 7px 12px;
+    font-size: 20px;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+}
+
+.tableh2{
+    display: flex;
+    background-color: rgba(255, 204, 0, 1);
+    text-align: center;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+    padding: 17px 0px;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.tp{
+    display: flex;
+    justify-content: center;
+}
+.tp p {
+    padding: 25px 150px;
+    font-size: 20px;
+    text-align: center;
+}
+.table{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.spysok{
+    margin-right: 180px;
+}
+.spysok li{
+    margin:30px 0px;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+}
+.flag{
+    justify-content: center;
+}
+.flag img{
+    margin: 7px 0px;
+}
+.rggc{
+    display: flex;
+    flex-direction: column;
+    margin-left: 185px;
+    margin-top: 12px;
+}
+.rggc div img{
+    margin: 30px 12px;
+}
+
+.line{
+    width: 100%;
+    height: 1px;
+    background-color: #494949;
+    margin: 60px 0px;
+}
+#news{
+    display: flex;
+    color: rgba(40, 73, 115, 1);
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+    font-size: 40px;
+    margin: 40px 0px;
+    font-weight: 400;
+}
+.newsimg1{
+    display: none;
+}
+.newsimg{
+    display: flex;
+    justify-content: space-between;
+}
+.newsimg img{
+    width: 33%;
+}
+.newslink{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    padding: 8px 10px;
+}
+.newslink a{
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+    margin-top: 10px;
+}
+.newslink p{
+    font-size: 18px;
+    text-align: center;
+}
+.news-section{
+    margin-bottom: 35px;
+}
+footer{
+    background-color: rgba(202, 216, 234, 1);
+}
+.footer-inf1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 45px 40px 0px 20px;
+    margin: 0px 30px;
+    padding-top: 60px;
+}
+.vert-line1{
+    width: 1px;
+    height: 200px;
+    background-color: #494949;
+    
+}
+.media1{
+    display: flex;
+    justify-content: center;
+}
+.media1 img{
+    padding: 25px 40px 15px 40px;
+}
+.about1 a{
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    margin: 5px 10px;
+}
+.collab1 h3{
+    font-family: 'Inter', sans-serif;
+    color: #494949;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+.collab1 div {
+    display: flex;
+}
+.collab1 div img{
+    padding: 5px 50px;
+}
+.footer2{
+    display: none;
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 20px 0px;
+}
+.media2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 10px 20px 80px;
+    justify-content: center;
+}
+.media2 div a{
+    margin: 20px;
+}
+.vert-line2{
+    display: flex;
+    justify-self: center;
+    width: 90%;
+    height: 0.1px;
+    background-color: #494949;
+    margin: 20px 0px;
+}
+.collab2{
+    display:inline-grid;
+    justify-content: center;
+    width: 100%;
+
+}
+.collab2 h3{
+    display: inline-block;
+    font-family: 'Inter', sans-serif;
+    color: #494949;
+    justify-self: center;
+    margin: 15px 0px;
+}
+.collab2 div{
+    display: flex;
+}
+.collab2 div img{
+    margin: 15px;
+}
+.about2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+.about2 div{
+    padding: 0px 70px;
+}
+.about2 div a{
+    text-decoration: none;
+    color: #494949;
+    font-family: 'Inter', sans-serif;
+}
+.form-sec{
+    background-color: hsla(0,0%,54%,.2);
+    padding: 20px 20px;
+}
+#cu {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+}
+
+#cu h2 {
+    text-align: center;
+    padding: 20px ;
+    background-color: #001489;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+.form {
+   padding: 20px;
+}
+
+.formlab {
+    color: rgba(73, 73, 73, 1);
+    font-family: 'Inter', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+
+}
+
+input[type="submit"] {
+    justify-items: center;
+    font-family: 'Inter', sans-serif;
+    background-color: white;
+    color: #001489;
+    padding: 5px 15px;
+    border: 1px solid #001489;
+    cursor: pointer;
+    font-size: 13px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+input[type="submit"]:hover {
+    background-color:#001489;
+    color: white;
+    border: none;
+}
+
+.price-sec h2{
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    padding: 30px 0px;
+    background-color: #001489;
+    font-size: 40px;
+    font-weight: 400px;
+}
+.fm {
+    width: 100vw;
+    color: #001489;
+    font-family: 'Inter', sans-serif;
+    background-color: #fbb700;
+    font-size: 30px;
+    font-weight: 300px;
+}
+.fm p{
+    padding: 15px 10px 15px 80px ;
+}
+.price-table{
+    display: flex;
+    background-color: hsla(0,0%,54%,.2);
+    justify-content: center;
+    align-items: center; 
+    padding-bottom: 40px;
+}
+.pr-item{
+    color: rgba(73, 73, 73, 1);
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    background-color: white;
+    margin: 60px 7px;
+    padding: 40px 0px;
+    width: 340px;
+}
+.pr-item h3{
+    color:#001489;
+    font-size: 21px;
+    font-weight: 400px;
+}
+.price{
+    font-size: 55px;
+    font-weight: 500px;
+    padding: 30px 10px;
+}
+.inf-pr{
+    padding: 5px;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+.price-btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 60%;
+    margin: 20px 0px;
+    padding: 5px 10px;
+    background-color: #fbb700;
+    color: white;
+}
+.pr-item:hover{
+    .gn{
+        color: white;
+        border: 1px solid white;
+    }
+    .price{
+        color: white;
+    }
+    .inf-pr{
+        color: white;
+    }
+    .price-btn {
+        background-color: white;
+        border: none;
+        color: #fbb700;
+    }
+    zoom: 110% ;
+    padding: 40px 10px ;
+    background-color: #fbb700 ;
+}
+
+
+
+@media (max-width:1350px){
+    .st{
+        padding-top: 50px;
+        font-size: 45px;
+    }
+    .det{
+        margin: 30px 0px 10px 0px;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+        
+    .game-name{
+        font-size: 20px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .collab1 div img{
+        padding: 5px 40px;
+    }
+    
+    
+}
+@media(max-width:1200px){
+    .game-obgortka{
+        justify-content: center;
+        flex-wrap:wrap;
+    }
+    .game-obgortka div{
+        margin: 30px;
+        width: 90%;
+    }
+    .tableh2{
+        padding: 15px 0px;
+        font-size: 20px;
+    }
+    .tp p {
+        padding: 20px 130px;
+        font-size: 15px;
+    }
+    .table{
+        margin-top: 30px;
+    }
+    .spysok{
+        margin-right: 150px;
+    }
+    .spysok li{
+        margin:25px 0px;
+        font-size: 25px;
+    }
+    .flag img{
+        width: 85%;
+    }
+    .rggc{
+        flex-wrap: nowrap;
+        margin-left: 155px;
+        margin-top: 10px;
+    }
+    .rggc div img{
+        margin: 25px 7px;
+    }
+    .collab1 div img{
+        padding: 5px 30px;
+    }
+    .footer-inf1{
+        padding: 45px 20px 0px 0px;
+        margin: 0px 30px;
+        padding-top: 60px;
+    }
+    .about1 a{
+        font-size: 18px;
+    }
+}
+@media(max-width:1000px){
+    .price-table{
+        display: block;
+        background-color: hsla(0,0%,54%,.2);
+        padding: 20px 5px;
+
+    }
+    .pr-item{
+        position: relative;
+        width: 80%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .price-sec h2{
+        padding: 25px 0px;
+        font-size: 30px;
+    }
+    .fm {
+        font-size: 25px;
+    }
+    .fm p{
+        padding: 13px 8px 13px 60px ;
+    }
+    
+}
+@media(max-width:960px){
+    nav a {
+        padding: 0px 7px;
+    }
+    .logo1{
+        margin-left: 20px;
+        width: 35%
+    }
+    .zaholovok{
+        padding: 0px 20px;
+        height: 100px;
+        font-size: 25px;
+    }
+    .players div{
+        flex-wrap: wrap;
+        margin: 30px 0px 0px 0px;
+    }
+    #pl-h2{
+        font-size: 30px;
+        padding: 40px 0px 0px 0px;
+    }
+    .button button{
+        margin: 10px 0px 30px 0px;
+    }
+    .pl-block{
+        flex-direction: row;  
+        width: 80%;
+        margin: 20px 0px;
+    }
+    .pl-block div, .pl-img{
+        width: 50%;
+    }
+    .pl-img{
+        align-self: flex-start;
+    }
+   .plp{
+    position: relative;
+    align-items: flex-end;
+   }
+    .plp p{
+        margin: 0px;
+        font-size: 25px;
+    }
+    .game-obgortka div{
+        margin: 20px;
+    }
+    .tp p {
+        padding: 15px 100px;
+        font-size: 11px;
+        text-align: center;
+    }
+    .table{
+        margin-top: 20px;
+    }
+    .spysok{
+        margin-right: 150px;
+    }
+    .spysok li{
+        margin:20px 10px;
+        font-size: 15px;
+    }
+    .flag img{
+        height: 30px;
+        width: 30px;
+    }
+    .rggc{
+        margin-left: 130px;
+    }
+    .rggc div img{
+        margin: 10px 5px;
+        height: 25px;
+        width: 25px;
+    }
+    .footer1{
+        display: none;
+    }
+    .footer2{
+        display: grid;
+        justify-content: center;
+        width:100%;
+    }
+    #cu {
+        width: 60%;
+    }
+}
+
+@media (max-width: 800px){
+    .logo1{
+        display:none;
+    }
+    nav a{
+        display: none;
+    }
+    header{
+        width: 100%;
+        justify-content: center;
+
+    }
+    header img{
+        display: flex;
+    }
+    .search-icon{
+        display: block;
+        width: 50px;
+        height: 50px;
+        padding: 0px 10px 0px 100px;
+        align-self: center;
+    }
+    .mob-logo{
+        display: block;
+        padding: 0px 100px 0px 10px;
+    }       
+    
+    
+    .burger-menu{
+        display: block;
+        align-items: center;
+    }
+    [for=burger]{
+        display: block;
+        font-size: 40px;
+        padding: 10px 0px 10px 60px;
+    }
+    #burger:checked + label + nav {
+        display: block;
+    }
+    [for=burger]::before{
+        content: '☰';
+    }
+    .nav1{
+        position: fixed;
+        top: 12.5vh;
+        background: rgba(73, 73, 73, 0.9);
+        right: 0;
+        width: 50%;
+        height: 100vh;
+        padding: 20px 0px;
+    }
+    .nav1 ul{
+        list-style-type: none;
+    }
+    .nav1 a{
+        display: block;
+        color: white;
+        text-align: left;
+        font-size: 20px;
+        padding: 10px 30px;
+    }
+
+
+
+    .zaholovok{
+        padding: 0px 20px;
+        height: 80px;
+        font-size: 27px;
+    }
+    .pl-block{
+        margin: 10px 0px;
+        width:85%;
+        display: flex;
+    }
+    .plp p{
+        font-size: 20px;
+    }
+    .sr {
+        font-size: 22px;
+        font-weight: 500;
+    }
+    .rebrov{
+        padding: 0px 15px;
+        font-size: 12px;
+    }
+    .link a{
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    .game-obgortka{
+        padding: 40px 30px;
+    }
+    .game-obgortka div{
+        margin: 15px 0px;
+    }
+    .game-name{
+        font-size: 20px;
+        padding: 8px;
+    }
+    .st{
+        font-size: 40px;
+        padding-top: 40px;
+    }
+    .det{
+        font-size: 15px;
+        margin-top: 25px;
+    }
+    .tp p {
+        font-size: 12px;
+        padding: 12px 60px;
+    }
+    .spysok{
+        margin-right: 70px;
+    }
+    .spysok li{
+        margin:15px 0px;
+        font-size: 12px;
+    }
+    .flag img{
+        height: 20px;
+        width: 20px;
+        margin: 10px 0px;
+    }
+    .rggc{
+        margin-left: 100px;
+    }
+    .rggc div img{
+        margin: 10px 5px;
+        height: 18px;
+        width: 18px;
+    }
+
+    .line{
+        margin: 25px 0px 5px 0px;
+        width: 100%;
+        height: 0.1px;        
+    }
+    #news{
+        font-size: 25px;
+        margin: 20px 0px;
+    }
+    .media2{
+        margin: 20px 10px 20px 40px;
+    }
+    .media2 div a{
+        margin: 17px;
+    }
+    .media2 div a img{
+        height: 35px;
+    }
+    .vert-line2{
+        width: 90%;
+    }
+    .collab2 div img{
+        margin: 12px;
+        height: 45px;
+    }    
+    .f1 div img{
+        height:150px;
+        margin-left: 30px;
+    }
+    #cu {
+        width: 70%;
+    }
+    .price-sec h2{
+        padding: 20px 0px;
+        font-size: 25px;
+    }
+    .fm {
+        font-size: 22px;
+    }
+    .fm p{
+        padding: 11px 7px 11px 50px ;
+    }
+
+}
+
+@media (max-width:600px){
+    .search-icon{
+        display: block;
+        width: 40px;
+        height: 40px;
+        padding: 0px 20px 0px 40px;
+        align-self: center;
+    }
+    .mob-logo{
+        display: block;
+        padding: 0px 60px 0px 10px;
+    }   
+    [for=burger]{
+        display: block;
+        font-size: 30px;
+        padding: 15px 10px 15px 30px;
+    }
+    .nav1{
+        top: 12.5vh;
+    }
+    .nav1 a{
+        font-size: 15px;
+        padding: 8px 25px;
+    }
+
+    .main-photo img{
+        display: none;
+    }
+    .main-photo1 img{
+        display: block;
+        width: 100vw;
+        padding-top: 1vh;
+    }
+    .zaholovok{
+        padding: 0px 15px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .players p{
+        padding-top: 30px;
+        font-size: 20px;
+    }
+    #pl-h2{
+        font-size: 25px;
+        padding: 20px 0px 0px 0px;
+    }
+    .players div{
+        margin: 10px 0px;
+    }
+    .plp p{
+        font-size: 15px;
+    }
+    .button button{
+        font-size: 10px;
+    }
+    .game-section{
+        margin-top: 45px;
+    }
+    .game-section h2{
+        padding: 8px 25px;
+        top: -20px;
+        font-size: 20px;
+    }
+    .game-obgortka{
+        padding: 50px 20px 30px 20px;
+    }
+    .game-obgortka div{
+        margin: 10px 0px;
+        padding: 10px;
+    }
+    .game-name{
+        font-size: 13px;
+        padding: 5px;
+    }
+    .game-date{
+        font-size: 10px;
+        padding-bottom: 8px;
+    }
+    .st{
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .det{
+        font-size: 10px;
+        margin-top: 15px;
+        padding: 2px 7px;
+    }
+    .tp p {
+        font-size: 8px;
+        padding: 10px 40px;
+    }
+    .spysok{
+        margin-right: 50px;
+    }
+    .spysok li{
+        margin:10px 0px;
+        font-size: 10px;
+    }
+    .flag img{
+        height: 15px;
+        width: 15px;
+        margin: 7px 0px;
+    }
+    .rggc{
+        margin-left: 80px;
+    }
+    .rggc div img{
+        margin: 8px 3px;
+        height: 12px;
+        width: 12px;
+    }
+    #news {
+        font-size: 20px;
+    }
+     .newsimg{
+        display:none;
+     }
+     .newsimg1{
+        display:block;
+     }
+     .newsimg1 div{
+        display: flex;
+    }
+    .newsimg11 img{
+        width:100%;
+    }
+    .newsimg12 img{
+        width:50%;
+    }
+    .newslink p{
+        font-size: 15px;
+    }
+    .newslink a{
+        font-size: 12px;
+    }
+    
+    .media2 div a{
+        margin: 0px;
+    }
+    .media2 div a img{
+        height: 30px;
+        width: 30px;
+        margin: 7px;
+    }
+    .f1{
+        margin: 15px 0px 0px 0px;
+    }
+    .f1 div img {
+        width: 120px;
+    }
+    .vert-line2{
+        width: 70%;
+        margin: 10px 0px;
+    }
+    .collab2 div img{
+        height: 30px;
+    }
+    .about2 div{
+        padding: 0px 30px;
+    }
+    .about2 div a{
+        font-size: 15px;
+    }
+    .about2{
+        padding: 10px 0px 20px 0px;
+    }
+    #cu {
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .form {
+        margin-top: 15px;
+    }
+        
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        padding: 5px;
+        margin: 5px 0 12px 0;    
+    }
+    
+    input[type="submit"] {
+        font-size: 12px;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    .pr-item h3{
+        font-size: 18px;
+    }
+    .pr-item{
+        width: 90%;
+    }
+    .price{
+        font-size: 45px;
+        padding: 20px 7px;
+    }
+    .inf-pr{
+        font-size: 13px;
+    }
+    .price-btn{
+        margin: 15px 0px;
+    }
+}
+
+
+@media (max-width:400px){
+    .mob-logo{
+        display: block;
+        padding: 0px 20px 0px 7px;
+    }     
+    .search-icon{
+        display: block;
+        width: 30px;
+        height: 30px;
+        padding: 0px 20px;
+        align-self: center;
+    }
+    [for=burger]{
+        display: block;
+        font-size: 25px;
+        padding: 20px 10px 20px 20px;
+    }  
+    .nav1 a{
+        font-size: 13px;
+        padding: 6px 20px;
+    }
+    
+
+    .zaholovok{
+        padding: 0px 10px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .players p{
+        font-size: 15px;
+        padding-top: 20px;
+    }
+    .plp p{
+        font-size: 10px;
+    }
+    #pl-h2{
+        font-size: 15px;
+    }
+    .players div{
+        margin: 10px 0px 0px 0px;
+    }
+    .button button{
+        font-size: 8px;
+    }
+
+    .sr {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .rebrov{
+        padding: 0px 8px;
+        font-size: 8px;
+    }
+    .link a{
+        font-size: 8px;
+        padding: 0px 8px;
+
+    }
+    .game-obgortka{
+        padding: 25px 15px;
+    }
+
+    .game-obgortka div{
+        margin: 8px 0px;
+    }
+
+    .tableh2{
+        font-size: 15px;
+        padding: 10px 0px;
+    }
+    .tp p {
+        font-size: 8px;
+        padding: 8px 20px;
+    }
+    .spysok{
+        margin-right: 30px;
+    }
+    .spysok li{
+        margin:6px;
+        font-size: 9px;
+    }
+    .flag img{
+        height: 12px;
+        width: 12px;
+        margin: 2px 0px;
+    }
+    .rggc{
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+    .rggc div img{
+        margin: 2px 3px;
+        height: 10px;
+        width: 10px;
+    }   
+    #news {
+        font-size: 18px;
+    } 
+    .news-section{
+        margin-bottom: 15px;
+    }
+    .newslink p{
+        font-size: 10px;
+    }
+    .newslink a{
+        font-size: 9px;
+    }
+    .media2 div a img{
+        height: 25px;
+        width: 25px;
+        margin: 5px;
+    }
+    .f1 div img {
+        width: 90px;
+    }
+    .collab2 h3{
+        margin: 5px 0px;
+        font-size: 15px;
+    }
+    .collab2 div img{
+        height: 20px;
+    }
+    .about2 div{
+        padding: 0px 30px;
+    }
+    .about2 div a{
+        font-size: 10px;
+    }
+    .price-sec h2{
+        padding: 17px 0px;
+        font-size: 20px;
+    }
+    .fm {
+        font-size: 18px;
+    }
+    .fm p{
+        padding: 8px 7px 8px 30px ;
+    }
+}
